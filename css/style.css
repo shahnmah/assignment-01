@@ -16,6 +16,7 @@ h2{
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 36px;
+    line-height: 10px;
 }
 h4{
     font-family: 'Poppins', sans-serif;
@@ -44,7 +45,7 @@ a{
 }
 section{
     padding: 0 10%;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 .flex-items{
     display: flex;
@@ -77,4 +78,13 @@ section{
 .mission-details .vission{
     background-color: rgba(0, 109, 233, 0.21) ;
 }
- 
+.develop-img {
+    width: 35%;
+}
+.develop-img img{
+    width: 100%;
+}
+.develope-details{
+    width: 65%;
+    padding-left: 60px;
+}
