@@ -53,6 +53,9 @@ section{
 .half-width{
     width: 50%;
 }
+.img-width{
+    width: 100%;
+}
 .banner-text h1{
     border-left: 4px solid #00b5fe;
     border-radius: 3px;
@@ -81,10 +84,14 @@ section{
 .develop-img {
     width: 35%;
 }
-.develop-img img{
-    width: 100%;
-}
 .develope-details{
     width: 65%;
     padding-left: 60px;
+}
+.community-img {
+    width: 35%;
+}
+.community-details{
+    width: 65%;
+    padding-right: 60px;
 }
