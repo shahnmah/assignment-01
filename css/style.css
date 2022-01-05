@@ -95,3 +95,13 @@ section{
     width: 65%;
     padding-right: 60px;
 }
+footer{
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(238, 227, 227, 0.336);
+    height: 170px;
+}
+footer h3{
+    font-family: 'Yeseva One', cursive;
+    padding-top: 60px;
+}
