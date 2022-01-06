@@ -100,11 +100,15 @@ section{
 .contact-img img{
     width: 80%;
 }
+.contact-details ul{
+    padding-left: 0;
+}
 .contact-details ul li{
     list-style: none;
 }
 .contact-details ul li a{
     background: none;
+    padding-left: 0;
 }
 .contact-details ul li a img{
     width: 40%;
