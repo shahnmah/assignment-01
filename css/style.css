@@ -57,7 +57,9 @@ section{
     width: 100%;
 }
 .banner-text h1{
-    border-left: 4px solid #00b5fe;
+    border-left: 4px solid;
+    border-image: linear-gradient(#00bbff 0%, #0066e7) 100%;
+    border-image-slice: 1;
     border-radius: 3px;
     padding-left: 5px;
 }
@@ -95,10 +97,23 @@ section{
     width: 65%;
     padding-right: 60px;
 }
+.contact-img img{
+    width: 80%;
+}
+.contact-details ul li{
+    list-style: none;
+}
+.contact-details ul li a{
+    background: none;
+}
+.contact-details ul li a img{
+    width: 40%;
+}
 footer{
     text-align: center;
     margin-top: 100px;
     background: rgba(238, 227, 227, 0.336);
+    background: #F5F5F5;
     height: 170px;
 }
 footer h3{
