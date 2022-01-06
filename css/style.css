@@ -45,7 +45,7 @@ a{
 }
 section{
     padding: 0 10%;
-    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .flex-items{
     display: flex;
@@ -53,8 +53,17 @@ section{
 .half-width{
     width: 50%;
 }
-.img-width{
+.thiry-five-with{
+    width: 35%;
+}
+.img-full-width{
     width: 100%;
+}
+.img-80-width{
+    width: 80%;
+}
+#banner-part{
+    margin-top: 80px;
 }
 .banner-text h1{
     border-left: 4px solid;
@@ -67,8 +76,7 @@ section{
     margin-top: 50px;
 }
 .banner-img img{
-    width: 80%;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 .mission-cart{
     width: 30%;
@@ -83,22 +91,13 @@ section{
 .mission-details .vission{
     background-color: rgba(0, 109, 233, 0.21) ;
 }
-.develop-img {
-    width: 35%;
-}
 .develope-details{
     width: 65%;
     padding-left: 60px;
 }
-.community-img {
-    width: 35%;
-}
 .community-details{
     width: 65%;
     padding-right: 60px;
-}
-.contact-img img{
-    width: 80%;
 }
 .contact-details ul{
     padding-left: 0;
